@@ -1,4 +1,4 @@
-package config;
+package com.salescontrol.shopservice.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.beans.factory.annotation.Value;
