@@ -8,13 +8,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="shop-service" />
-        <module name="warehouse-service" />
+        <module name="base-domain" />
         <module name="tax-service" />
+        <module name="warehouse-service" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="base-domain" options="-parameters" />
       <module name="shop-service" options="-parameters" />
       <module name="tax-service" options="-parameters" />
       <module name="warehouse-service" options="-parameters" />

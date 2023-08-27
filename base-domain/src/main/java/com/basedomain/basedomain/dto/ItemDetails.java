@@ -1,4 +1,4 @@
-package com.salescontrol.shopservice.services;
+package com.basedomain.basedomain.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

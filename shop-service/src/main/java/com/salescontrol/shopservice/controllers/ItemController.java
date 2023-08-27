@@ -1,7 +1,7 @@
 package com.salescontrol.shopservice.controllers;
 
-import com.salescontrol.shopservice.models.ItemDetails;
-import com.salescontrol.shopservice.models.ItemEvent;
+import com.basedomain.basedomain.dto.ItemDetails;
+import com.basedomain.basedomain.dto.ItemEvent;
 import com.salescontrol.shopservice.services.ItemProducerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
