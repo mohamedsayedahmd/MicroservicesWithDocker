@@ -31,9 +31,11 @@ public class ItemController {
                 , itemDetails.getPrice());
 
         ItemEvent itemEvent = new ItemEvent(
-                "Credit Card"
+                UUID.randomUUID().toString()
+                ,"Credit Card"
                 , item
                 , LocalDateTime.now());
+
         itemProducerService.sendMessage(itemEvent);
     }
 
